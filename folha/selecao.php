@@ -5,7 +5,7 @@ Os dois nomes, do grupo e do cometa, são convertidos em um número que represen
 Para os cometas e grupos abaixo, qual grupo NÃO será levado?
 
 COMETA		GRUPO
---------------------
+------------------------
 HALLEY		AMARELO
 ENCKE		VERMELHO
 WOLF		PRETO
