@@ -1,0 +1,28 @@
+O Leco (um dos mentores da Aceleradora) gostaria de realizar o sonho de ser empreendedor e abrir uma fruteira na Redenção.  Uma das necessidades como empreendedor é controlar e ter informações sobre as vendas.
+Para tanto, ele comprou uma caixa registradora que gera um arquivo de saída contendo todos os itens vendidos e, para cada item a máquina insere uma linha no arquivo no seguinte formato:
+ 
+nome_do_produto;valor_da_unidade_no_dia_da_compra;quantidade_vendida
+ 
+Nosso empreendedor adorou essa funcionalidade da caixa registradora, pois não precisará ficar lendo o registro das transações em um papel impresso se tiver como traduzir esse arquivo para um relatório mais adaptado para seres humanos. Você foi contratado para desenvolver uma aplicação que irá gerar um relatório de vendas a partir do arquivo gerado pela caixa registradora.
+ 
+Nosso jovem empreendedor necessita saber quantos itens vendeu de cada produto, junto com o valor total de cada produto vendido (por exemplo, quantas laranjas foram vendidas e quanto de dinheiro isso rendeu no caixa).
+ 
+Além disso, também necessita que seja computado o valor total da soma de todos os produtos vendidos. No fim de cada mês, o Leco vai pegar o arquivo do caixa e inserir na aplicação desenvolvida para obter o relatório de como andam as vendas da sua tão sonhada fruteira.
+ 
+Usando a linguagem de programação de sua preferência (Java, C#, Ruby, Python, JavScript, C...), desenvolva uma aplicação console (ou seja, que roda no terminal, por linha de comando) que ajude nosso jovem empreendedor a gerar esse relatório.
+Essa aplicação NÃO deve fazer uso de bibliotecas externas, frameworks e etc...,  apenas as que são por padrão da linguagem (por exemplo, se optar por Java 7, você pode usar JUnit para escrever testes e as classes padrão de java.nio.file para manipular arquivos), pois necessitamos avaliar o seu conhecimento básico de programação.
+ 
+Abaixo, um exemplo de arquivo de entrada da aplicação e uma possível saída (a sua não precisa estar em ordem alfabética, apenas precisa mostrar as informações corretas):
+ 
+Entrada:
+laranja;0.50;3
+uva;3.00;6
+banana;2.00;1
+laranja;0.50;5
+banana;3.00;1
+ 
+Saída:
+Banana - 2 un. - R$5.00
+Laranja - 8 un. - R$4.00
+Uva - 6 un. - R$18.00
+TOTAL - R$27.00

@@ -1,0 +1,5 @@
+laranja;0.50;3
+uva;3.00;6
+banana;2.00;1
+laranja;0.50;5
+banana;3.00;1
